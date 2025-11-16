@@ -1,5 +1,8 @@
 # DocSimplify.ai
 
+**Live Demo:** [https://docsimplify-akash.vercel.app/](https://docsimplify-akash.vercel.app/)  
+**Watch Intro Video:** [YouTube: DocSimplify ai](https://youtu.be/Z3caQ61brX8?si=EL_KjzryQr_oovYX)
+
 DocSimplify.ai is a Lingo.dev–powered workflow that transforms dense PDFs into accessible, multilingual summaries. It combines:
 
 - **pdf2md** for local PDF-to-Markdown extraction.
