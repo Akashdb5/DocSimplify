@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "pdf2md · GPT-4o · Lingo.dev",
+    "title": "Simplifier. Traduire. Expliquer.",
+    "subtitle": {
+      "upload": "Téléchargez des documents juridiques, médicaux, financiers ou gouvernementaux et obtenez des résultats simplifiés et traduits.",
+      "processing": "Nous analysons, simplifions et traduisons. Sécurisé, sans dépendance à un fournisseur.",
+      "results": "Examinez les résultats, démarrez une conversation multilingue et exportez les résumés."
+    },
+    "steps": {
+      "step1": "pdf2md préserve la mise en page, les tableaux et les citations.",
+      "step2": "GPT-4o produit un résumé en langage simple.",
+      "step3": "Lingo.dev gère les traductions et les conversations multilingues."
+    }
+  },
+  "upload": {
+    "eyebrow": "Pipeline sécurisé",
+    "title": "Télécharger un document",
+    "description": "Les fichiers PDF sont convertis avec pdf2md, simplifiés avec GPT et traduits via Lingo.dev.",
+    "dropTitle": "Glissez-déposez ou cliquez pour télécharger",
+    "dropHint": "Max 15 Mo · Fonctionne mieux avec PDF",
+    "domainLabel": "Domaine du document",
+    "targetLabel": "Langue cible",
+    "whatNextTitle": "Que se passe-t-il ensuite",
+    "whatNextList": [
+      "Conversion en Markdown avec pdf2md (conserve les tableaux et les titres)",
+      "Résumé et simplification avec GPT-4o",
+      "Traduction vers les langues cibles avec Lingo.dev"
+    ],
+    "submit": "Traiter le document",
+    "domainOptions": {
+      "legal": "Juridique",
+      "healthcare": "Santé",
+      "finance": "Finance",
+      "government": "Gouvernement",
+      "general": "Général"
+    },
+    "languageOptions": {
+      "none": "Ignorer la traduction",
+      "ar": "Arabe",
+      "bn": "Bengali",
+      "de": "Allemand",
+      "es": "Espagnol",
+      "fa": "Persan",
+      "fr": "Français",
+      "he": "Hébreu",
+      "hi": "Hindi",
+      "it": "Italien",
+      "ja": "Japonais",
+      "ko": "Coréen",
+      "mr": "Marathi",
+      "or": "Odia",
+      "pl": "Polonais",
+      "pt-BR": "Portugais (Brésil)",
+      "ru": "Russe",
+      "tr": "Turc",
+      "uk-UA": "Ukrainien",
+      "zh-Hans": "Chinois (simplifié)"
+    }
+  },
+  "processing": {
+    "title": "Traitement de votre document",
+    "description": "Suivez le pipeline en temps réel.",
+    "tip": "Chaque étape s'exécute en mémoire sans verrouillage de fournisseur ni stockage en arrière-plan.",
+    "stages": [
+      "Téléchargement sécurisé",
+      "Conversion en Markdown (pdf2md)",
+      "Simplification avec GPT",
+      "Traduction avec Lingo.dev"
+    ],
+    "status": {
+      "done": "Terminé",
+      "running": "En cours",
+      "pending": "En attente",
+      "hint": "Cette étape prend généralement quelques secondes."
+    }
+  },
+  "results": {
+    "title": "Résultats",
+    "description": "Examinez chaque version, téléchargez des PDF ou ouvrez une conversation multilingue.",
+    "buttons": {
+      "downloadSimplified": "Télécharger la version simplifiée",
+      "downloadTranslation": "Télécharger {{language}} (simplifié)",
+      "chat": "Discuter du document"
+    },
+    "tabs": {
+      "original": "Original",
+      "originalTranslation": "Traduction originale",
+      "simplified": "Simplifié",
+      "simplifiedTranslation": "Traduction simplifiée"
+    },
+    "emptyTranslations": "Aucune traduction demandée. Revenez en arrière et choisissez des langues.",
+    "missingSimplified": "Traduction simplifiée non disponible pour cette langue.",
+    "missingOriginal": "Traduction originale non disponible pour cette langue.",
+    "stats": {
+      "readingLevel": "Niveau de lecture",
+      "wordCount": "Nombre de mots",
+      "language": "Langue"
+    }
+  },
+  "share": {
+    "title": "Enregistrer ou partager",
+    "description": "Exportez des PDF soignés ou copiez un lien temporaire et révocable.",
+    "export": "Exporter le PDF simplifié",
+    "copy": "Copier le lien sécurisé",
+    "summary": "Les liens expirent après 24h et peuvent être révoqués depuis la console d'administration."
+  },
+  "chat": {
+    "title": "Posez n'importe quelle question sur ce document",
+    "description": "Chat multilingue alimenté par Lingo.dev + GPT.",
+    "placeholder": "Demandez des clarifications, des résumés ou des traductions...",
+    "empty": "Pas encore de questions. Commencez la conversation ci-dessous.",
+    "send": "Envoyer",
+    "selectLabel": "Langue",
+    "badges": {
+      "you": "Vous",
+      "assistant": "Assistant",
+      "llmReceived": "LLM reçu",
+      "llmResponse": "Réponse LLM"
+    }
+  },
+  "footer": {
+    "builtWith": "Construit avec pdf2md, GPT-4o et le moteur de traduction Lingo.dev.",
+    "links": {
+      "lingo": "Lingo.dev",
+      "pdf2md": "pdf2md"
+    },
+    "copyright": "© {{year}} DocSimplify"
+  }
+}

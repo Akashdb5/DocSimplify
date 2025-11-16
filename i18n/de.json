@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "pdf2md · GPT-4o · Lingo.dev",
+    "title": "Vereinfachen. Übersetzen. Erklären.",
+    "subtitle": {
+      "upload": "Laden Sie juristische, medizinische, finanzielle oder behördliche Dokumente hoch und erhalten Sie vereinfachte, übersetzte Ausgaben.",
+      "processing": "Wir analysieren, vereinfachen und übersetzen. Sicher, ohne Anbieterbindung.",
+      "results": "Überprüfen Sie die Ergebnisse, starten Sie mehrsprachigen Chat und exportieren Sie Zusammenfassungen."
+    },
+    "steps": {
+      "step1": "pdf2md bewahrt Layout, Tabellen und Zitate.",
+      "step2": "GPT-4o erstellt eine Zusammenfassung in einfacher Sprache.",
+      "step3": "Lingo.dev übernimmt Übersetzungen & mehrsprachigen Chat."
+    }
+  },
+  "upload": {
+    "eyebrow": "Sichere Verarbeitung",
+    "title": "Dokument hochladen",
+    "description": "PDF-Dateien werden mit pdf2md konvertiert, mit GPT vereinfacht und über Lingo.dev übersetzt.",
+    "dropTitle": "Drag & Drop oder klicken zum Hochladen",
+    "dropHint": "Max. 15MB · Funktioniert am besten mit PDF",
+    "domainLabel": "Dokumentenbereich",
+    "targetLabel": "Zielsprache",
+    "whatNextTitle": "Was passiert als nächstes",
+    "whatNextList": [
+      "Konvertierung zu Markdown mit pdf2md (behält Tabellen & Überschriften bei)",
+      "Zusammenfassung und Vereinfachung mit GPT-4o",
+      "Übersetzung in Zielsprachen mit Lingo.dev"
+    ],
+    "submit": "Dokument verarbeiten",
+    "domainOptions": {
+      "legal": "Recht",
+      "healthcare": "Gesundheitswesen",
+      "finance": "Finanzen",
+      "government": "Behörden",
+      "general": "Allgemein"
+    },
+    "languageOptions": {
+      "none": "Übersetzung überspringen",
+      "ar": "Arabisch",
+      "bn": "Bengalisch",
+      "de": "Deutsch",
+      "es": "Spanisch",
+      "fa": "Persisch",
+      "fr": "Französisch",
+      "he": "Hebräisch",
+      "hi": "Hindi",
+      "it": "Italienisch",
+      "ja": "Japanisch",
+      "ko": "Koreanisch",
+      "mr": "Marathi",
+      "or": "Odia",
+      "pl": "Polnisch",
+      "pt-BR": "Portugiesisch (Brasilien)",
+      "ru": "Russisch",
+      "tr": "Türkisch",
+      "uk-UA": "Ukrainisch",
+      "zh-Hans": "Chinesisch (vereinfacht)"
+    }
+  },
+  "processing": {
+    "title": "Ihr dokument wird verarbeitet",
+    "description": "Verfolgen sie die pipeline in echtzeit.",
+    "tip": "Jeder schritt wird im speicher ausgeführt, ohne anbieterbindung oder hintergrundspeicherung.",
+    "stages": [
+      "Sicheres hochladen",
+      "Konvertierung zu Markdown (pdf2md)",
+      "Vereinfachung mit GPT",
+      "Übersetzung mit Lingo.dev"
+    ],
+    "status": {
+      "done": "Erledigt",
+      "running": "Wird ausgeführt",
+      "pending": "Ausstehend",
+      "hint": "Dieser Schritt dauert normalerweise einige Sekunden."
+    }
+  },
+  "results": {
+    "title": "Ergebnisse",
+    "description": "Überprüfen Sie jede Version, laden Sie PDFs herunter oder starten Sie einen mehrsprachigen Chat.",
+    "buttons": {
+      "downloadSimplified": "Vereinfachte Version herunterladen",
+      "downloadTranslation": "{{language}} herunterladen (vereinfacht)",
+      "chat": "Über Dokument chatten"
+    },
+    "tabs": {
+      "original": "Original",
+      "originalTranslation": "Originalübersetzung",
+      "simplified": "Vereinfacht",
+      "simplifiedTranslation": "Vereinfachte Übersetzung"
+    },
+    "emptyTranslations": "Keine Übersetzungen angefordert. Gehen Sie zurück und wählen Sie Sprachen aus.",
+    "missingSimplified": "Vereinfachte Übersetzung für diese Sprache nicht verfügbar.",
+    "missingOriginal": "Originalübersetzung für diese Sprache nicht verfügbar.",
+    "stats": {
+      "readingLevel": "Leseniveau",
+      "wordCount": "Wortanzahl",
+      "language": "Sprache"
+    }
+  },
+  "share": {
+    "title": "Speichern oder teilen",
+    "description": "Exportieren Sie fertige PDFs oder kopieren Sie einen ablaufenden, widerrufbaren Link.",
+    "export": "Vereinfachtes PDF exportieren",
+    "copy": "Sicheren Link kopieren",
+    "summary": "Links laufen nach 24 Stunden ab und können über die Admin-Konsole widerrufen werden."
+  },
+  "chat": {
+    "title": "Stellen Sie Fragen zu diesem Dokument",
+    "description": "Mehrsprachiger Chat, unterstützt von Lingo.dev + GPT.",
+    "placeholder": "Bitten Sie um Klarstellungen, Zusammenfassungen oder Übersetzungen...",
+    "empty": "Noch keine Fragen. Beginnen Sie die Unterhaltung unten.",
+    "send": "Senden",
+    "selectLabel": "Sprache",
+    "badges": {
+      "you": "Sie",
+      "assistant": "Assistent",
+      "llmReceived": "LLM erhalten",
+      "llmResponse": "LLM-Antwort"
+    }
+  },
+  "footer": {
+    "builtWith": "Erstellt mit pdf2md, GPT-4o und der Lingo.dev Übersetzungs-Engine.",
+    "links": {
+      "lingo": "Lingo.dev",
+      "pdf2md": "pdf2md"
+    },
+    "copyright": "© {{year}} DocSimplify"
+  }
+}

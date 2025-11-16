@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "pdf2md · GPT-4o · Lingo.dev",
+    "title": "Simplifica. Traduce. Explica.",
+    "subtitle": {
+      "upload": "Sube documentos legales, médicos, financieros o gubernamentales y obtén resultados simplificados y traducidos.",
+      "processing": "Estamos analizando, simplificando y traduciendo. Seguro, sin dependencia de proveedores.",
+      "results": "Revisa los resultados, inicia chat multilingüe y exporta resúmenes."
+    },
+    "steps": {
+      "step1": "pdf2md preserva el diseño, tablas y citas.",
+      "step2": "GPT-4o produce un resumen en lenguaje sencillo.",
+      "step3": "Lingo.dev maneja traducciones y chat multilingüe."
+    }
+  },
+  "upload": {
+    "eyebrow": "Proceso seguro",
+    "title": "Sube un documento",
+    "description": "Los archivos PDF se convierten con pdf2md, se simplifican con GPT y se traducen a través de Lingo.dev.",
+    "dropTitle": "Arrastra y suelta o haz clic para subir",
+    "dropHint": "Máximo 15MB · Funciona mejor con PDF",
+    "domainLabel": "Dominio del documento",
+    "targetLabel": "Idioma de destino",
+    "whatNextTitle": "Qué sucede después",
+    "whatNextList": [
+      "Conversión a Markdown con pdf2md (mantiene tablas y encabezados)",
+      "Resumen y simplificación con GPT-4o",
+      "Traducción a idiomas de destino con Lingo.dev"
+    ],
+    "submit": "Procesar documento",
+    "domainOptions": {
+      "legal": "Legal",
+      "healthcare": "Salud",
+      "finance": "Finanzas",
+      "government": "Gobierno",
+      "general": "General"
+    },
+    "languageOptions": {
+      "none": "Omitir traducción",
+      "ar": "Árabe",
+      "bn": "Bengalí",
+      "de": "Alemán",
+      "es": "Español",
+      "fa": "Persa",
+      "fr": "Francés",
+      "he": "Hebreo",
+      "hi": "Hindi",
+      "it": "Italiano",
+      "ja": "Japonés",
+      "ko": "Coreano",
+      "mr": "Maratí",
+      "or": "Odia",
+      "pl": "Polaco",
+      "pt-BR": "Portugués (Brasil)",
+      "ru": "Ruso",
+      "tr": "Turco",
+      "uk-UA": "Ucraniano",
+      "zh-Hans": "Chino (simplificado)"
+    }
+  },
+  "processing": {
+    "title": "Procesando tu documento",
+    "description": "Sigue el proceso en tiempo real.",
+    "tip": "Cada paso se ejecuta en memoria sin dependencia de proveedores ni almacenamiento en segundo plano.",
+    "stages": [
+      "Subiendo de forma segura",
+      "Convirtiendo a Markdown (pdf2md)",
+      "Simplificando con GPT",
+      "Traduciendo con Lingo.dev"
+    ],
+    "status": {
+      "done": "Completado",
+      "running": "En proceso",
+      "pending": "Pendiente",
+      "hint": "Este paso normalmente toma unos segundos."
+    }
+  },
+  "results": {
+    "title": "Resultados",
+    "description": "Revisa cada versión, descarga PDFs o abre un chat multilingüe.",
+    "buttons": {
+      "downloadSimplified": "Descargar simplificado",
+      "downloadTranslation": "Descargar {{language}} (simplificado)",
+      "chat": "Chatear sobre el documento"
+    },
+    "tabs": {
+      "original": "Original",
+      "originalTranslation": "Traducción original",
+      "simplified": "Simplificado",
+      "simplifiedTranslation": "Traducción simplificada"
+    },
+    "emptyTranslations": "No se solicitaron traducciones. Regresa y elige idiomas.",
+    "missingSimplified": "Traducción simplificada no disponible para este idioma.",
+    "missingOriginal": "Traducción original no disponible para este idioma.",
+    "stats": {
+      "readingLevel": "Nivel de lectura",
+      "wordCount": "Recuento de palabras",
+      "language": "Idioma"
+    }
+  },
+  "share": {
+    "title": "Guardar o compartir",
+    "description": "Exporta PDFs pulidos o copia un enlace con caducidad y revocable.",
+    "export": "Exportar PDF simplificado",
+    "copy": "Copiar enlace seguro",
+    "summary": "Los enlaces caducan después de 24h y pueden ser revocados desde la consola de administración."
+  },
+  "chat": {
+    "title": "Pregunta cualquier cosa sobre este documento",
+    "description": "Chat multilingüe impulsado por Lingo.dev + GPT.",
+    "placeholder": "Pide aclaraciones, solicita resúmenes o traducciones...",
+    "empty": "Aún no hay preguntas. Inicia la conversación abajo.",
+    "send": "Enviar",
+    "selectLabel": "Idioma",
+    "badges": {
+      "you": "Tú",
+      "assistant": "Asistente",
+      "llmReceived": "LLM recibido",
+      "llmResponse": "Respuesta LLM"
+    }
+  },
+  "footer": {
+    "builtWith": "Construido con pdf2md, GPT-4o y el motor de traducción de Lingo.dev.",
+    "links": {
+      "lingo": "Lingo.dev",
+      "pdf2md": "pdf2md"
+    },
+    "copyright": "© {{year}} DocSimplify"
+  }
+}

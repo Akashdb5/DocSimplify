@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+/.temp
+/.pnp
+.pnp.js
+
+*.lock
+package-lock.json
+*.tsbuildinfo
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.log
+*.local
+
+# env
+.env
+.env.local
+.env*.local

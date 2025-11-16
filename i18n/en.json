@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "pdf2md · GPT-4o · Lingo.dev",
+    "title": "Simplify. Translate. Explain.",
+    "subtitle": {
+      "upload": "Upload legal, medical, finance or government documents and get simplified, translated outputs.",
+      "processing": "We are parsing, simplifying, and translating. Secure, no vendor lock-in.",
+      "results": "Review outputs, start multilingual chat, and export summaries."
+    },
+    "steps": {
+      "step1": "pdf2md preserves layout, tables, and citations.",
+      "step2": "GPT-4o produces a plain-language summary.",
+      "step3": "Lingo.dev handles translations & multilingual chat."
+    }
+  },
+  "upload": {
+    "eyebrow": "Secure pipeline",
+    "title": "Upload a document",
+    "description": "PDF files are converted with pdf2md, simplified with GPT, and translated via Lingo.dev.",
+    "dropTitle": "Drag & drop or click to upload",
+    "dropHint": "Max 15MB · Works best with PDF",
+    "domainLabel": "Document domain",
+    "targetLabel": "Target language",
+    "whatNextTitle": "What happens next",
+    "whatNextList": [
+      "Convert to Markdown with pdf2md (maintains tables & headings)",
+      "Summarize and simplify with GPT-4o",
+      "Translate to target languages with Lingo.dev"
+    ],
+    "submit": "Process document",
+    "domainOptions": {
+      "legal": "Legal",
+      "healthcare": "Healthcare",
+      "finance": "Finance",
+      "government": "Government",
+      "general": "General"
+    },
+    "languageOptions": {
+      "none": "Skip translation",
+      "ar": "Arabic",
+      "bn": "Bengali",
+      "de": "German",
+      "es": "Spanish",
+      "fa": "Persian",
+      "fr": "French",
+      "he": "Hebrew",
+      "hi": "Hindi",
+      "it": "Italian",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "mr": "Marathi",
+      "or": "Odia",
+      "pl": "Polish",
+      "pt-BR": "Portuguese (Brazil)",
+      "ru": "Russian",
+      "tr": "Turkish",
+      "uk-UA": "Ukrainian",
+      "zh-Hans": "Chinese (Simplified)"
+    }
+  },
+  "processing": {
+    "title": "Processing your document",
+    "description": "Follow the pipeline in real-time.",
+    "tip": "Every step runs in-memory with no vendor lock-in or background storage.",
+    "stages": [
+      "Uploading securely",
+      "Converting to Markdown (pdf2md)",
+      "Simplifying with GPT",
+      "Translating with Lingo.dev"
+    ],
+    "status": {
+      "done": "Done",
+      "running": "Running",
+      "pending": "Pending",
+      "hint": "This step usually takes a few seconds."
+    }
+  },
+  "results": {
+    "title": "Results",
+    "description": "Review every version, download PDFs, or open a multilingual chat.",
+    "buttons": {
+      "downloadSimplified": "Download Simplified",
+      "downloadTranslation": "Download {{language}} (simplified)",
+      "chat": "Chat about document"
+    },
+    "tabs": {
+      "original": "Original",
+      "originalTranslation": "Original translation",
+      "simplified": "Simplified",
+      "simplifiedTranslation": "Simplified translation"
+    },
+    "emptyTranslations": "No translations requested. Go back and choose languages.",
+    "missingSimplified": "Simplified translation unavailable for this language.",
+    "missingOriginal": "Original translation unavailable for this language.",
+    "stats": {
+      "readingLevel": "Reading level",
+      "wordCount": "Word count",
+      "language": "Language"
+    }
+  },
+  "share": {
+    "title": "Save or share",
+    "description": "Export polished PDFs or copy an expiring, revocable link.",
+    "export": "Export simplified PDF",
+    "copy": "Copy secure link",
+    "summary": "Links expire after 24h and can be revoked from the admin console."
+  },
+  "chat": {
+    "title": "Ask anything about this document",
+    "description": "Multi-lingual chat powered by Lingo.dev + GPT.",
+    "placeholder": "Ask clarifications, request summaries, or translations...",
+    "empty": "No questions yet. Start the conversation below.",
+    "send": "Send",
+    "selectLabel": "Language",
+    "badges": {
+      "you": "You",
+      "assistant": "Assistant",
+      "llmReceived": "LLM received",
+      "llmResponse": "LLM response"
+    }
+  },
+  "footer": {
+    "builtWith": "Built with pdf2md, GPT-4o, and the Lingo.dev translation engine.",
+    "links": {
+      "lingo": "Lingo.dev",
+      "pdf2md": "pdf2md"
+    },
+    "copyright": "© {{year}} DocSimplify"
+  }
+}
