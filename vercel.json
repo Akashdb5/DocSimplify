@@ -3,7 +3,13 @@
     {
       "source": "/(.*)",
       "destination": "https://docsimplify-akash.vercel.app/$1",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "docsimplify-akash-osxlh3e48-akash-birajdars-projects.vercel.app"
+        }
+      ]
     }
   ]
 }
